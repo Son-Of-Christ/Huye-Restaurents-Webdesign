@@ -1,0 +1,89 @@
+
+
+        <html>
+            <head>
+                <meta charset="UTF-8">
+                <title>welcome to Accounts Pannel</title>
+                <link rel="stylesheet" href="logincsss.css">
+            
+            </head>
+            <body>
+            
+            
+                         
+                                <div class="form-box"id="id002">
+                                    <div class="form">
+                                        <form class="login-form"action="client.php"method="POST">
+                                            <center><h1 class="main-heading">Client Form </h1></center>
+                                            <input type="text"placeholder=" Firstname"name="clfuser"/>
+                                            <input type="text"placeholder=" Lastname"name="clluser"/>
+                                            <input type="text"placeholder=" Email-Id"name="clmail"/>
+                                       <select name="sexes" > 
+                                           <option value="0">Choose Sex </option>
+                                          <option >Male </option>
+                                          <option >Female </option> 
+                                        </select>
+                                        
+                                            <input type="password"placeholder="Password"name="clpwd"/>
+                                            
+                                            <button id="d6" type="submit"name="clsubmit">Register</button>
+                                            <!-- <p class="message">Not Registered? <a href="#">Register</a></p> -->
+                                        </form>
+                                        <!-- <form class="register-form"action="register.php"method="POST">
+                                            <center><h1 class="main-heading">Register Form</h1></center>
+                                            <input type="text" name="reguser"placeholder="Your username"/>
+                                            <input type="text" name="regmail"placeholder="Your Email-id"/>
+                                            <input type="password"name="regpwd" placeholder="Password"/>
+                                       
+                                            <button id="d7" type="submit" name="regsubmit">REGISTER</button>
+                                            <p class="message">Already Registered?<a href="#">Login</a>
+                                            </p> -->
+                                        <!-- </form>  -->
+                                     </div>
+                                </div>
+                            
+                    
+                <script src='https://code.jquery.com/jquery-3.2.1.min.js'>
+                </script>
+                <script>
+                    $('.message a').click(function(){$('form').animate({height: "toggle",opacity: "toggle"},"slow");});
+                </script>
+             
+                
+                <div class="welco"id="d1">
+                          <h2><strong>Dear Clients  Your Are Wecome </strong></h2><br>
+                  <p>  We are Delighted To Start With You..</p>
+                    </div>
+                <div class="welco2"id="d2">
+               
+               <h2>Register</h2><br>
+   <p>Register to be our official Client<br>
+    And you will be the first to know about<br>
+    promotions,Events and The news <br>
+    concerning  Our Restaurants..
+        </p>
+              </div>
+            
+             
+            
+                     <script src="logregister.js">
+                         </script>
+                     
+              
+<!--                     
+                            <div class="forms">
+                               
+                                <form class="login-form"action="logadmin.php"method="POST">
+                                    <center><h1 class="main-heading">Admin Login</h1></center>
+                                    <input type="text"placeholder="Your Code"name="adcode"/>
+                                    <input type="password"placeholder="Password"name="adpwd"/>
+                                    
+                                    <button id="d5"type="submit"name="adsubmit">Enter Now</button>
+                              
+                                </form>
+                             
+                            </div>
+                            </div> -->
+            
+            </body>
+            </html>

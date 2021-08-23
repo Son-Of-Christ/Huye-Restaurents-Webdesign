@@ -1,0 +1,486 @@
+*
+
+{
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+}
+
+.form-box
+
+{
+    
+    width: 320px;
+
+	height: 500px;
+
+	position: relative;
+
+    top: 50px;
+
+    left: 120px;
+
+
+	background: rgba(36, 34, 34, 0.37);
+margin-left: 380px;
+margin-top: 90px;
+box-shadow: 3px 3px 3px rgba(190, 187, 22, 0.795);
+
+position: absolute;
+
+}
+
+.main-heading
+
+{
+
+    color: yellow;
+
+    padding-bottom: 20px;
+
+}
+
+.form
+
+{
+
+	position: relative;
+
+	margin: 0 auto 100px;
+
+	padding: 45px;
+
+    text-align: center;
+
+}
+
+.form input
+
+{
+
+	font-family: sans-serif;
+
+	outline: none;
+
+    border: none;
+
+    border-bottom: 1px solid black;
+
+	width: 100%;
+
+	margin: 0 0 15px;
+
+	padding: 15px;
+
+	font-size: 14px;
+
+}
+
+.form button
+
+{
+
+	font-family: sans-serif;
+
+	width: 100%;
+
+    color: white;
+
+	font-size: 14px;
+
+	cursor: pointer;
+
+	padding: 15px;
+
+    border: none;
+
+    background:tomato;
+
+}
+
+.form .message
+
+{
+
+    font-size: large;
+
+
+	margin: 15px 0 0;
+
+    color: white;
+
+}
+
+.form .message a
+
+{
+
+	color: yellow;
+
+	text-decoration: none;
+    font-size: large;
+
+}
+
+.form .register-form{
+
+	display: none;
+
+}
+
+.defination
+
+{
+
+    text-align: left;
+
+    font-size: 30px;
+
+    color: white;
+
+    font-family: 'Kaushan Script', cursive;
+
+    padding-left: 60px;
+
+}
+
+   input
+   {
+       border-radius: 8px;
+   }
+   button
+   {
+       border-radius: 8px;
+   }
+   button:hover
+   {
+
+    background-color: rgb(233, 96, 47);
+}
+  body{
+
+background-image: url('gd.jpeg');
+background-repeat: no-repeat;
+min-height: 690px;
+background-position:center;
+
+position: relative;
+background-size: 1800px 1000px;
+margin-left: 0PX;
+width: 2000px;
+overflow-y: hidden;
+overflow-x: hidden;
+  }
+  .error{
+width: 92%;
+margin: 0px auto;
+padding: 10px;
+border: 1px solid #a94442;
+color: #a94442;
+background: #f2dede;
+border-radius: 5px;
+text-align: left;
+
+  }
+
+select
+  {
+
+    width: 100px;
+    
+
+
+	outline: none;
+
+    border: none;
+
+    border-bottom: 1px solid black;
+
+	width: 100%;
+
+	margin: 0 0 15px;
+
+	padding: 15px;
+
+	font-size: 14px;
+
+     border-radius: 8px;
+  }
+  select option
+  {
+	font-family: sans-serif;
+  }
+
+
+
+  .welco h2
+  {
+
+    color: yellowgreen;
+    
+  }
+  .welco p
+  {    color:white;
+      font-size: large;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
+  }
+
+
+  .welco1 h2
+  {
+
+    color:yellowgreen;
+    
+  }
+  .welco1 p
+  {   
+      font-size: large;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:white;
+  }
+
+
+
+  .welco2 h2
+  {
+
+    color: yellowgreen;
+  
+    
+  }
+  .welco2 p
+  {
+      font-size: large;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
+      color:white;
+
+
+
+  }
+  .welco
+  {
+      position: absolute;
+
+animation: moving 5s ease-in;
+animation-fill-mode: both;
+margin-top: 160px;
+margin-left:-250px;
+  }
+  .welco1
+  {
+      position: absolute;
+ margin-left: 1500px;
+ margin-top: 400px;
+ animation: movv 7s ease-in-out;
+ animation-fill-mode:forwards;
+  }
+  .welco2 
+  {
+      position:absolute;
+
+    margin-left:1500px;
+    margin-top: 200px;;
+    animation: mov 7s ease-in-out;
+    animation-fill-mode:forwards;
+  }
+#d1
+{
+    animation-timing-function:ease;
+}
+@keyframes moving
+{
+    from {left:-250px;}
+    to{left: 400px;}
+    
+}
+
+ #d3
+{
+    animation-timing-function:ease;
+} 
+
+
+@keyframes mov
+{
+    from {left:1500px;}
+    to{left: -440px;}
+    
+} 
+@keyframes movv
+{
+    from {left:1500px;}
+    to{left: -450px;}
+    
+} 
+/* span 
+{
+    
+    
+    height: 30px;
+ 
+   
+    border: solid;
+  
+    
+    border-color: dodgerblue;
+    color:rgb(7, 7, 7);
+  
+    background-origin:content-box;
+    text-shadow: 1px 1px 1px rgb(243, 243, 243), 0 0 35px rgba(255, 0, 0, 0.233), 0 0 5px rgb(251, 251, 251);
+    width: 300px;
+} */
+
+
+.win{
+
+    height: 30px;
+    width: 230px;
+    position: absolute;
+    border-radius: 8px;
+
+    margin-top: 600px;
+
+    background: #ff3232;
+    background: -moz-linear-gradient(-35deg, #282fff 20%,  #ff0000 10%, #ff0000 0%,#ff0000  100%);
+    background: -webkit-linear-gradient(-35deg,#3a40f0 20%, #ff0000 10%,   #ff0000 51%, #ff0000 100%);
+    background: linear-gradient(125deg,#282fff 20%, #ff0000  10%,  #ff0000 51%, #ff0000  100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#005dff', endColorstr='    #ff3232',GradientType=1 );
+    text-shadow: 1px 1px 1px rgb(243, 243, 243), 0 0 35px rgba(238, 226, 226, 0.233), 0 0 5px rgba(251, 251, 251, 0.972);
+
+    }
+.win p{
+
+ font-size: large;
+ margin-left:50px ;
+margin-top: 3px;
+
+
+    }
+
+.adlogin
+{
+  
+margin-left: 1221px;
+    transition: 0.9s;
+    position:static;
+
+}
+.adlogin:hover
+{
+margin-left: 1140PX;
+}
+.forbox
+{
+    display: none;
+ 
+    width: 500px;
+
+	height: 300px;
+
+	position: relative;
+
+    top: 50px;
+
+    left: 120px;
+
+	/* background: rgba(36, 34, 34, 0.37); */
+    background: rgba(15, 224, 206, 0.24);
+margin-left: 270px;
+margin-top: 90px;
+box-shadow: 3px 3px 3px rgba(0, 251, 251, 0.795);
+
+position: absolute;
+
+
+}
+.forms
+{ 
+    
+	position: relative;
+
+	margin: 0 auto 100px;
+
+	padding: 45px;
+
+    text-align: center;
+}
+.forms input
+{
+    font-family: sans-serif;
+
+	outline: none;
+
+    border: none;
+
+    border-bottom: 1px solid black;
+
+	width: 100%;
+
+	margin: 0 0 15px;
+
+	padding: 15px;
+
+	font-size: 14px;
+}
+.forms button[type=submit]
+
+{
+
+	font-family: sans-serif;
+
+	width: 100%;
+
+    color: white;
+
+	font-size: 14px;
+
+	cursor: pointer;
+
+	padding: 15px;
+
+    border: none;
+
+    background:tomato;
+
+}
+#d4
+{
+    margin-top: 95px;
+    margin-left: 510px;
+    display: none;
+    font-size: large;
+
+}
+#d4 p
+{
+    padding-left:0PX;
+    font-size: large;
+}
+#d5
+{
+     background-color: 	#8b0000;
+    font-size: large;
+}
+#d6
+{
+    font-size: large;
+}
+#d7
+{
+    font-size: large;
+}
+
+
+
+#female
+{
+    position: absolute;
+    margin-top: -51px;
+    margin-left: 150px;
+    color: #050505;
+    font-size: large;
+}

@@ -1,0 +1,179 @@
+*
+{
+padding: 0%;
+margin: 0%;
+ 
+   
+}
+
+
+.text
+{
+    width: 500px;
+    position: absolute;
+    top: 200px;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 420px;
+}
+.text p
+{
+    margin-top: 30px;
+    margin-bottom: 40px;
+    margin-left: 25px;
+    color:rgb(241, 241, 241);
+ 
+font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  writing-mode: horizontal-tb;
+  text-align: right;
+  font-stretch: wider;
+  font-size: large;
+
+}
+.text span
+{
+    background:red;
+    height: 1px;
+    width:80px;
+    position: absolute;
+    left: 3px;
+  padding-top: 0px;
+}
+
+.big
+{
+
+    min-height: 690px;
+    background-position:center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: 1399PX 695PX;
+    margin-left: 0PX;
+    width: 1355PX;
+    animation: big 12s linear infinite 0s;
+    animation-timing-function:ease-in-out;
+
+
+}
+
+body
+{
+   
+    overflow-x: hidden;
+    overflow-y:hidden;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color:transparent !important;
+    font-family:monospace;
+
+    width:1345px;
+   padding-top: 0px;
+  margin-top: 0;
+  font-size: xx-large;
+    
+  
+  }
+  
+  .navbar a {
+    float: LEFT;
+    font-size: 20px;
+    color: white;
+    text-align: CENTER;
+    padding: 19px 25px;
+    text-decoration: none;
+    margin-left:110PX;
+    
+  }
+  
+
+  .dropdown {
+    float: left;
+    overflow: hidden;
+     font-family: sans-serif;
+  }
+  
+  .dropdown .dropbtn {
+       
+    font-size: 20px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 18px 90px;
+    background-color: inherit;
+    font-family:inherit ;
+    margin: 0; 
+  }
+  
+
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color:blue;
+    transform: translate(8PX,-8PX);
+  }
+  
+  .dropdownfiles {
+    display: none;
+    position: absolute;
+    background-color:transparent !important;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.1);
+    z-index: 1;
+     padding: 18px 25px;
+     
+  }
+.dropdownfiles a {
+    float: none;
+    color:rgb(255, 211,0);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdownfiles a:hover {
+    background-color: whitesmoke;
+    margin-left: 20px;
+  }
+  
+ 
+  .dropdown:hover .dropdownfiles {
+    display: block;
+  }
+  .text h2
+  {
+    color:rgb(255, 211,0);
+  }
+ @keyframes big {
+     0%
+     {
+         background-image:url("drink.jpg");
+         transition-timing-function:ease;
+
+     }
+     25%
+     {
+      transition-duration: unset;
+      
+    }
+    50%
+    { 
+      transition-duration: unset;
+      
+    }
+    75%
+    {
+    
+      transition-duration: unset;
+      
+    }
+    100%
+    {
+      background-image:url("www.jpg");
+      transition-timing-function:ease-in-out;
+  
+ }
+ 
+
+}
+

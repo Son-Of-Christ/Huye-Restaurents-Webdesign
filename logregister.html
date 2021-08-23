@@ -1,0 +1,88 @@
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>welcome to Accounts Pannel</title>
+    <link rel="stylesheet" href="logincss.css">
+
+</head>
+<body>
+
+
+             
+                    <div class="form-box"id="id002">
+                        <div class="form">
+                            <form class="login-form"action="loginvalid.php"method="POST">
+                                <center><h1 class="main-heading">Agent Login </h1></center>
+				                <input type="text"placeholder="Agent Username"name="loguser"/>
+				                <input type="password"placeholder="Agent Password"name="logpwd"/>
+                                
+				                <button id="d6" type="submit"name="logsubmit">LOGIN</button>
+				                <!-- <p class="message">Not Registered? <a href="#">Register</a></p> -->
+				            </form>
+                            <!-- <form class="register-form"action="register.php"method="POST">
+                                <center><h1 class="main-heading">Register Form</h1></center>
+				                <input type="text" name="reguser"placeholder="Your username"/>
+				                <input type="text" name="regmail"placeholder="Your Email-id"/>
+				                <input type="password"name="regpwd" placeholder="Password"/>
+                           
+				                <button id="d7" type="submit" name="regsubmit">REGISTER</button>
+				                <p class="message">Already Registered?<a href="#">Login</a>
+				                </p>
+				            </form>  -->
+			             </div>
+	                </div>
+                
+        
+    <script src='https://code.jquery.com/jquery-3.2.1.min.js'>
+    </script>
+    <script>
+        $('.message a').click(function(){$('form').animate({height: "toggle",opacity: "toggle"},"slow");});
+    </script>
+ 
+    
+    <div class="welco"id="d1">
+              <h2><strong>  Your Are Wecome Admins</strong></h2><br>
+      <p>  We are Delighted To Start With You</p>
+        </div>
+    <div class="welco1"id="d2">
+             <h2>Agents</h2><br>
+ <p>If You are Agent use Agent Form<br>
+      </p>
+  </div>
+
+  <div class="welco2"id="d3">
+    <h2>Super Admin</h2><br>
+    <p>If You Are Super Admin,<br>
+      Use <label style="color: red;">SUPER ADMIN Button Below</label><br>
+      To Continue
+  </p>
+         </div>
+
+         <script src="logregister.js">
+             </script>
+         <div id="admin" class="adlogin">
+            <button type="button" class="win" onclick="text(0)" ><p><b> SUPER ADMIN  </b></p> </button>
+     
+             </div>
+  
+        
+          <button id="d4" type="button" class="win" onclick="text(1)"><p><b>Back Agent Form</b></p> </button>
+              <div class="forbox"id="id001">
+          
+                <div class="forms">
+                   
+                    <form class="login-form"action="logadmin.php"method="POST">
+                        <center><h1 class="main-heading">Admin Login</h1></center>
+                        <input type="text"placeholder="Your Code"name="adcode"/>
+                        <input type="password"placeholder="Password"name="adpwd"/>
+                        
+                        <button id="d5"type="submit"name="adsubmit">Enter Now</button>
+                  
+                    </form>
+                 
+                </div>
+                </div>
+
+</body>
+</html>

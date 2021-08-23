@@ -1,0 +1,158 @@
+<!doctype html>
+<html  lang="en">
+<head>
+
+  <link rel="stylesheet"type="text/css"href="ureservation.css">
+
+</head>
+<body style="background-color:#D7DADA" >
+
+  <div class="rnavs">
+    <a href="umucyo.html">HOME</a>
+    <a href="menu.pdf#toolbar=0">CHECK MENU</a>
+    <a href="price.html">CHECK PRICING</a>
+    </div>
+    <div class="hedr">
+      <h1 style="padding-bottom: 50px;"> RESTAURENT RESERVATION PANEL</h1>
+     
+      </div>
+      <div class="margi">
+<fieldset>
+  <legend>TYPE OF YOUR PARTY</legend>
+
+    <label style="margin-left: 240px;font-size:x-large;">Choose your Intended party type :</label><br>
+   <br>
+   <div class="checkr">
+    <input style="margin-left: 250px;"type="radio" id="r" name="off" value="nma"onclick="tx(0)"uncheked>
+    <label style="margin-left: 5px;"for="cms">OFF-SITE</label><br> 
+    <br>
+    <br>
+    <input style="margin-left: 250px;"type="radio" id="r1" name="off" value="heqa" onclick="text(0)"uncheked> 
+<label style="margin-left: 5px;"for="r1">ON OUR HQ</label>
+
+<span class="checkmark"></span>
+
+<span class="checkmark"></span>
+   </fieldset>
+
+     </div>
+    </div>
+ <script src="reserv.js">
+   </script>
+   <div class="ptr"id=pnm>
+     <fieldset>
+    <input style="margin-left: 120px ;margin-top :-100px;" type="checkbox" id="rr1" name="hw" value="site" onclick="text(1)"uncheked>
+    <label style="margin-left: 2px;" for="crs">Check Here To Close This Form</label><br> 
+     <h4 style="margin-left: 20px;">On Our HQ Reservation Selected</h4>
+     <p>Please Fill This Form</p>
+     <form action="hqreserve.php"method="POST">
+    
+      <label style="margin-left:5px;" for="fname">First Name</label><br>
+      <input type="text" id="fname" name="firstname" placeholder="Enter Your First name.. " required><br>
+      <br>
+      <label style="margin-left:5px;" for="lname">Last Name</label><br>
+      <input type="text" id="lname" name="lastname" placeholder="Enter Your Last name.." required>
+      <br>
+      <br>
+      <label style="margin-left:5px;"for="em">E-mail</label><br>
+      <input type="text" id="em" name="email" placeholder="Enter Your E-mail" required><br>
+      <br>
+    
+      <label style="margin-left:5px;"for="pm">Phone Number</label><br>
+      <input type="tel" id="em" name="phone" placeholder="Enter Your Phone number" required><br>
+      <br>
+      <label style="margin-left:5px;" for="Date">Desired Reservation Date & Time</label><br>
+    <input style="margin-left:5px;height: 25px;width: 250px;" type="datetime-local" id="Date" name="date" required><br>
+    <br>
+   
+     <label style="margin-left:4px;"for="part">PARTICIPANTS</label><br>
+     <input style="width:230px;"type="text" id="p1" name="part" placeholder="How many participants" required><br>
+     <br>
+    <button style="height: 30px;"type="button" onclick="calc()">Your will be given</button>
+    <input style="margin-left:2px;width: 240px;"type="text"id="number"name="given">
+    <br>
+    <br>
+
+<input style="margin-left: 80px;height: 40px;width: 230px;font-size: large;" type="submit" value="ACCEPT" name="hqsubmit"/>
+</form>
+
+<div class="fil">
+  <h2>NOTE THIS:</h2>
+  <aside>After Filling In Participants Informatin<br>
+     Press "YOU WILL BE GIVEN"Button To Check<br>
+      Where You Will be Assigned And After Click Accept<BR>
+      To SUBMIT </aside>
+  </div>
+</fieldset>
+    </div>
+  
+    <div class="ptr1"id=pnm1>
+     
+        <fieldset>
+          <input style="margin-left: 180px;margin-top: -50px;"type="checkbox" id="rs" name="hw" value="nma1"onclick="tx(1)"uncheked>
+          <label style="margin-left: 2px;" for="cms">Check Here To Close This Form</label><br> 
+      <h4>OFF-SITE RESERVATION SELECTED</h4>
+      <p>Please Fill This Form And Download the Form</p>
+      <form  action="offreserve.php"method="POST">
+
+        <label style="margin-left:3px;" for="fname">First Name</label><br>
+        <input type="text" id="fname" name="firstname" placeholder="Enter Your First name.. " required><br>
+        <br>
+        <label style="margin-left:3px;" for="lname">Last Name</label><br>
+        <input type="text" id="lname" name="lastname" placeholder="Enter Your Last name.." required>
+        <br>
+        <br>
+        <label style="margin-left:3px;"for="em">E-mail</label><br>
+        <input type="text" id="em" name="email" placeholder="Enter Your E-mail" required><br>
+        <br>
+      
+        <label style="margin-left:3px;"for="pm">Phone Number</label><br>
+        <input type="tel" id="em" name="phone" placeholder="Enter Your Phone number" required><br>
+        <br>
+        <label style="margin-left:3px;" for="Date">Desired Reservation Date & Time</label><br>
+      <input style="margin-left:3px;height: 25px;width: 255px;" type="datetime-local" id="Date" name="date" required><br>
+      <br>
+    <label style="margin-left: 5px;"for="loname">ADDRESS OF EVENT</label><br>
+
+    <input style="margin-left: 5px;height: 20px;width:200px;margin-bottom: 3px;" type="text" id="loname" name="am" placeholder="Enter the City.. " required><br>
+    <input style="margin-left: 5px;height: 20px;width:200px;margin-bottom: 3px;"type="text" id="looname" name="name" placeholder="Street Address" required><br>
+    <input style="margin-left: 5px;height: 20px;width:200px;margin-bottom: 3px;" type="tel" id="loooname" name="namee" placeholder="Event place Telephone" required><br>
+    <input style="margin-left: 5px;height: 20px;width:200px;margin-bottom: 3px;"type="text" id="oname" name="ame" placeholder="House Number" required>
+    <br>
+    <br>
+
+        <div class="download">
+         <h4> Click Below to download The Form</h4> 
+         <a href="off.pdf" download>
+            <img src="download.gif" alt="W3Schools" width="104" height="152">
+          </a>
+          </div>
+          <div class="upload">
+            <h2>NOTE THIS:</h2>
+            <aside>All This Fields Has to be Filled Correctly<br>
+              And After filling the fields you have to download<br>
+             The Form Provided For Additional Information and Fill it.<br>
+            After Filling the form Re-Upload Scanned Version.Further Info <br>
+            Will be Found On the Form.   Thanks </aside>
+            <h4>Click Below To Upload Scanned Form</h4>
+           
+         
+              <input type="file" id="myFile" name="filename">
+         
+            
+            </div>
+            <br>
+            <input style="font-size: large;"type="submit"Name="offsubmit"value="ACCEPT">
+            </form>
+          </fieldset>
+          </div>
+  </div>
+    
+   </fieldset>
+
+   </body> 
+        
+ 
+   
+ </body>
+ </html>
